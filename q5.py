@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv("student_performance.csv", encoding = "utf-8")
+data = pd.read_csv("data/student_performance.csv", encoding = "utf-8")
 print(data.head(6))
 print("Rows: ",data.shape[0])
 print("Columns: ", data.shape[1])
@@ -19,4 +19,4 @@ print(filtered)
 
 data = data.sort_values(by=["Final_Score"], ascending = False)
 
-data.to_csv("processed_student_performance.csv")
+data.to_csv("data\processed_student_performance.csv")
