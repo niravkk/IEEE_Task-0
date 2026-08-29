@@ -11,7 +11,7 @@ def is_prime(n):
     else:
         return (True)
 
-N=int(input())
+N=int(input("Enter N: "))
 for j in range(2, N+1):
     print(j, ": ", is_prime(j))
     

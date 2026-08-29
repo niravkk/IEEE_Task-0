@@ -1,8 +1,7 @@
-n= int(input())
-print()
+n= int(input("Enter n: "))
 nums =[]
 for i in range(n):
-    temp = int(input())
+    temp = int(input("Enter a number: "))
     nums.append(temp)
 
 max = nums[0]
